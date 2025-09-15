@@ -48,7 +48,7 @@
 * Veja que o nome do projeto vai integrar a nossa package.
 * Toda vez que você quiser criar uma subpackage, ela será adicionada automaticamente após o nome do seu projeto.
 > [!Note]
-> Você deve ter notado o uso do _._ no lugar das tradicionais barra / e contra barra \, esse é mais uma característica das packages, porém, quando você abrir no seu gerenciador de arquivos, você vai reparar que é o ponto é apenas uma maneira de exibir a divisão.
+> Você deve ter notado o uso do _._ no lugar das tradicionais barra / e contra barra \\, esse é mais uma característica das packages, porém, quando você abrir no seu gerenciador de arquivos, você vai reparar que é o ponto é apenas uma maneira de exibir a divisão.
 
 * exemplo de uma subpackage chamada _database_:
 `net.felipealafy.nome_do_projeto.database`
@@ -57,7 +57,7 @@
 
 * Agora que já entendemos a navegação de arquivos vamos nos concentrar no foco principal, o editor de texto.
 ![](./imagens/05.png)
-* Note que nas últimas versões o intellij começou a entregar um exemplo de óla, mundo!, padrão para o kotlin dentro do arquivo _main.kt_.
+* Note que nas últimas versões o intellij começou a entregar um exemplo de Olá, mundo!, padrão para o kotlin dentro do arquivo _main.kt_.
 * vamos começar excluindo esse arquivo main.kt, pois vamos começar do absoluto zero.
 * Depois de apagar ele na navegação de arquivos, vamos fazer a construção base da nossa package. Caso você não tenha um domínio, tudo bem, você pode colocar algo como:
 `com.seu_nome.kotlin_introduction`
@@ -277,7 +277,7 @@ Condicionais nos permitem executar blocos de código apenas se uma determinada c
 | Menor que          | `<`      | `5 < 6` (true)              |
 | Menor ou igual a   | `<=`     | `5 <= 5` (true)             |
 | E (Conjunção)      | `&&`     | `(5 > 3) && (2 < 3)` (true) |
-| OU (Disjunção)     | `||`     | `(5 > 6) || (3 > 2)` (true) |
+| OU (Disjunção)     | `\|\|`     | `(5 > 6) \|\| (3 > 2)` (true) |
 | Negação            | `!`      | `!false` (true)             |
 
 ### As estruturas `if`, `else if`, `else`:
